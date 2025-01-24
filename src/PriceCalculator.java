@@ -47,7 +47,7 @@ public class PriceCalculator {
                     JFrame resultFrame = new JFrame("Price before tax");
                     resultFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                     resultFrame.setSize(250, 100);
-                    resultFrame.setLocation(400, 200); // Set initial location for mainFrame
+                    resultFrame.setLocation(400, 200); 
 
                     JPanel resultPanel = new JPanel();
                     resultPanel.setLayout(new BoxLayout(resultPanel, BoxLayout.Y_AXIS)); 
